@@ -1,0 +1,1 @@
+C:\Testeapp\estagioCopia - Copy - Copy\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\3m4x4cm2\obj\arm64-v8a

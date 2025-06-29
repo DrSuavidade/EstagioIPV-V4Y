@@ -1,0 +1,1 @@
+C:\Testeapp\estagio\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\2o2g2o5f\obj\arm64-v8a

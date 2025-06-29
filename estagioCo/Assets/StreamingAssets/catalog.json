@@ -1,0 +1,172 @@
+{
+  "sections": [
+    {
+      "title": "Novidades",
+      "cards": [
+        {
+          "name": "Casa A",
+          "streetName": "Avenida da Liberdade",
+          "location": "VENDIDO",
+          "price": 0,
+          "type": "MORADIA",
+          "size": "T3",
+          "area": 200,
+          "description": "Teste Descrição",
+          "imageName": "House1",
+          "detailsLeft": "10\n0\n0\n0\n0\n0",
+          "detailsRight": "0\n0\n0\n0\n0\n0",
+          "latitude": 38.71667,
+          "longitude": -9.13989,
+          "scanImageName": "1",
+          "modelPrefabName": "HousePrefab2" 
+        },
+        {
+          "name": "Casa B",
+          "streetName": "Rua Santa",
+          "location": "Lisboa, Portugal",
+          "price": 250000.0,
+          "type": "APARTAMENTO",
+          "size": "T2",
+          "area": 300,
+          "description": "Teste Descrição",
+          "imageName": "House2",
+          "detailsLeft": "0\n0\n0\n0\n0\n0",
+          "detailsRight": "0\n0\n0\n0\n0\n0",
+          "latitude": 40.659960,
+          "longitude": -7.889665,
+          "scanImageName": "2",
+          "modelPrefabName": "HousePrefab3" 
+        },
+        {
+          "name": "Casa C",
+          "streetName": "Rua das Flores",
+          "location": "Lisboa, Portugal",
+          "price": 175000.0,
+          "type": "MORADIA",
+          "size": "T4",
+          "area": 120,
+          "description": "Teste Descrição",
+          "imageName": "House3",
+          "detailsLeft": "0\n0\n0\n0\n0\n0",
+          "detailsRight": "0\n0\n0\n0\n0\n0",
+          "latitude": 40.666678,
+          "longitude": -7.900326,
+          "scanImageName": "3",
+          "modelPrefabName": "HousePrefab4" 
+        }
+      ]
+    },
+    {
+      "title": "Catalogo",
+      "cards": [
+        {
+          "name": "Casa D",
+          "streetName": "Rua do Marques",
+          "location": "Lisboa, Portugal",
+          "price": 250000.0,
+          "type": "APARTAMENTO",
+          "size": "T3",
+          "area": 210,
+          "description": "Teste Descrição",
+          "imageName": "House4",
+          "detailsLeft": "0\n0\n0\n0\n0\n0",
+          "detailsRight": "0\n0\n0\n0\n0\n0",
+          "latitude": 40.678041,
+          "longitude": -7.888227,
+          "scanImageName": "4",
+          "modelPrefabName": "HousePrefab5" 
+        },
+        {
+          "name": "Casa E",
+          "streetName": "Praça do Comércio",
+          "location": "Lisboa, Portugal",
+          "price": 140000.0,
+          "type": "MORADIA",
+          "size": "T5",
+          "area": 320,
+          "description": "Teste Descrição",
+          "imageName": "House5",
+          "detailsLeft": "0\n0\n0\n0\n0\n0",
+          "detailsRight": "0\n0\n0\n0\n0\n0",
+          "latitude": 40.678636,
+          "longitude": -7.844275,
+          "scanImageName": "5",
+          "modelPrefabName": "HousePrefab6" 
+        },
+        {
+          "name": "Casa F",
+          "streetName": "Rua de Todos os Santos",
+          "location": "Lisboa, Portugal",
+          "price": 275000.0,
+          "type": "MORADIA",
+          "size": "T2",
+          "area": 100,
+          "description": "Teste Descrição",
+          "imageName": "House6",
+          "detailsLeft": "0\n0\n0\n0\n0\n0",
+          "detailsRight": "0\n0\n0\n0\n0\n0",
+          "latitude": 40.669194,
+          "longitude": -7.955372,
+          "scanImageName": "6",
+          "modelPrefabName": "HousePrefab2" 
+        }
+      ]
+    },
+    {
+      "title": "Descontos",
+      "cards": [
+        {
+          "name": "Casa G",
+          "streetName": "Rua Cortada",
+          "location": "Lisboa, Portugal",
+          "price": 330000.0,
+          "type": "APARTAMENTO",
+          "size": "T2",
+          "area": 180,
+          "description": "Teste Descrição",
+          "imageName": "House7",
+          "detailsLeft": "0\n0\n0\n0\n0\n0",
+          "detailsRight": "0\n0\n0\n0\n0\n0",
+          "latitude": 40.649992,
+          "longitude": -7.979052,
+          "scanImageName": "7",
+          "modelPrefabName": "HousePrefab3" 
+        },
+        {
+          "name": "Casa H",
+          "streetName": "Rua dos Loucos",
+          "location": "Lisboa, Portugal",
+          "price": 260000.0,
+          "type": "MORADIA",
+          "size": "T2",
+          "area": 220,
+          "description": "Teste Descrição",
+          "imageName": "House8",
+          "detailsLeft": "0\n0\n0\n0\n0\n0",
+          "detailsRight": "0\n0\n0\n0\n0\n0",
+          "latitude": 40.676316,
+          "longitude": -7.914135,
+          "scanImageName": "8",
+          "modelPrefabName": "HousePrefab4" 
+        },
+        {
+          "name": "Casa I",
+          "streetName": "Rua dos Girassóis",
+          "location": "Lisboa, Portugal",
+          "price": 175000.0,
+          "type": "MORADIA",
+          "size": "T4",
+          "area": 170,
+          "description": "Teste Descrição",
+          "imageName": "House9",
+          "detailsLeft": "0\n0\n0\n0\n0\n0",
+          "detailsRight": "0\n0\n0\n0\n0\n0",
+          "latitude": 40.642247,
+          "longitude": -7.916177,
+          "scanImageName": "9",
+          "modelPrefabName": "HousePrefab5" 
+        }
+      ]
+    }
+  ]
+}

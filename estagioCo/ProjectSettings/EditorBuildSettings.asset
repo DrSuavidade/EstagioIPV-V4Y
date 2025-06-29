@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HomeScreen.unity
+    guid: 87cba438d2c32c44c9f0fee58ebc4134
+  - enabled: 1
+    path: Assets/Scenes/Scan.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  m_configObjects:
+    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: c7691f94e3b4c92479492ba37de7f9a2, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 56cec628be3ea9d459f25683fd15deb2, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: e291f21c9ec2ab34499f9c23eaab1488, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: ea13c26aa73298549aeb317ef8412eee, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4b0dfe9eee6a7aa4ebd639de1d3f8d61, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 100ca985b038e4943981ae6950fd8fe8, type: 2}
+  m_UseUCBPForAssetBundles: 0
