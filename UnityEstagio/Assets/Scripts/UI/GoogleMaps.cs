@@ -86,32 +86,6 @@ public class Map : MonoBehaviour
         StartCoroutine(InitLocationAndMap());
     }
 
-    IEnumerator InitLocationAndMap()
-    {
-        yield return StartCoroutine(CheckInternetConnection());
-        // once lat/lon decided, do first fetch
-        rect = rawImage.rectTransform.rect;
-        yield return StartCoroutine(GetGoogleMap());
-    }
-
-    private IEnumerator CheckInternetConnection()
-    {
-        UnityWebRequest www = UnityWebRequest.Get("https://maps.googleapis.com/maps/api/js?key=" + apiKey);
-        yield return www.SendWebRequest();
-
-        if (www.result != UnityWebRequest.Result.Success)
-        {
-            Debug.LogWarning("No internet connection or Google Maps not reachable!");
-            if (noConnectionText != null)
-                noConnectionText.gameObject.SetActive(true); // Show the "No Connection" message
-        }
-        else
-        {
-            if (noConnectionText != null)
-                noConnectionText.gameObject.SetActive(false); // Hide the message when the connection is successful
-        }
-    }
-
     void Update()
     {
         if (allowPinchZoom && Input.touchCount == 2)
@@ -164,39 +138,52 @@ public class Map : MonoBehaviour
         }
     }
 
+    IEnumerator InitLocationAndMap()
+    {
+
+        rect = rawImage.rectTransform.rect;
+        yield return StartCoroutine(GetGoogleMap());
+
+        // if initial load failed, allow Update() to retry
+        needsUpdate = true;
+    }
+
     IEnumerator GetGoogleMap()
     {
-        int w = Mathf.RoundToInt(rect.width);
-        int h = Mathf.RoundToInt(rect.height);
+        int w = Mathf.RoundToInt(rect.width), h = Mathf.RoundToInt(rect.height);
         string url = $"https://maps.googleapis.com/maps/api/staticmap?" +
                      $"center={lat},{lon}&zoom={zoom}" +
                      $"&size={w}x{h}&scale={(int)mapResolution}" +
                      $"&maptype={mapType}&key={apiKey}";
-
         using var www = UnityWebRequestTexture.GetTexture(url);
         yield return www.SendWebRequest();
 
         if (www.result == UnityWebRequest.Result.Success)
         {
             rawImage.texture = ((DownloadHandlerTexture)www.downloadHandler).texture;
+            if (noConnectionText != null)
+                noConnectionText.gameObject.SetActive(false);
 
-            // cache for next compare
-            keyLast = apiKey;
-            latLast = lat;
-            lonLast = lon;
-            zoomLast = zoom;
-            resLast = mapResolution;
-            typeLast = mapType;
+            // cache params…
+            keyLast = apiKey; latLast = lat; lonLast = lon;
+            zoomLast = zoom; resLast = mapResolution; typeLast = mapType;
 
-            // ─────── NEW: place pins after map load ───────
             if (loader != null && pinPrefab != null && pinsParent != null)
                 PlacePins();
         }
         else
         {
             Debug.LogWarning($"Map load failed: {www.error}");
+            if (noConnectionText != null)
+                noConnectionText.gameObject.SetActive(true);
+
+            // retry on next frame/update
+            needsUpdate = true;
         }
     }
+
+
+
 
     private void PlacePins()
     {

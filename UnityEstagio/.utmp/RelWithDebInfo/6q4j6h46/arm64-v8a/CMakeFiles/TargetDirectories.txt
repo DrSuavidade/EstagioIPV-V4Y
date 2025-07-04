@@ -1,0 +1,5 @@
+C:/Testeapp/estagioCo/.utmp/RelWithDebInfo/6q4j6h46/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Testeapp/estagioCo/.utmp/RelWithDebInfo/6q4j6h46/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Testeapp/estagioCo/.utmp/RelWithDebInfo/6q4j6h46/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Testeapp/estagioCo/.utmp/RelWithDebInfo/6q4j6h46/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Testeapp/estagioCo/.utmp/RelWithDebInfo/6q4j6h46/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

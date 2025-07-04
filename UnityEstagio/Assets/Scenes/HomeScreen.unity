@@ -647,21 +647,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis
-    felis pharetra neque semper, nec condimentum metus congue. Vestibulum eget ex
-    maximus risus accumsan maximus. Nulla placerat purus id blandit congue. Aenean
-    venenatis, augue ut finibus imperdiet, ipsum sem dapibus sem, in ultrices diam
-    velit ac purus. Integer facilisis condimentum odio, non rutrum sapien aliquam
+  m_text: "Este trabalho foi realizado pelo aluno Pedro Duarte de Almeida Alves Costa,
+    numero pv26240 do curso de TDM do Instituto Polit\xE9cnico de Viseu. Vestibulum
+    eget ex maximus risus accumsan maximus. Nulla placerat purus id blandit congue.
+    Aenean venenatis, augue ut finibus imperdiet, ipsum sem dapibus sem, in ultrices
+    diam velit ac purus. Integer facilisis condimentum odio, non rutrum sapien aliquam
     non. Aenean convallis neque risus, ut aliquet est ornare eu. Vestibulum suscipit
     ornare commodo. Praesent magna lectus, vulputate quis tellus a, placerat ornare
-    augue.
-
-    Ut finibus ipsum luctus congue aliquet. Nunc vel turpis arcu. Cras
-    feugiat ac urna ut interdum. Curabitur eget posuere dolor, at placerat leo. Etiam
-    rhoncus diam orci, ut euismod orci lacinia nec. Nulla facilisi. Mauris sagittis
-    diam quis ante lacinia, venenatis auctor ipsum venenatis.
-
-'
+    augue.\nUt finibus ipsum luctus congue aliquet. Nunc vel turpis arcu. Cras feugiat
+    ac urna ut interdum. Curabitur eget posuere dolor, at placerat leo. Etiam rhoncus
+    diam orci, ut euismod orci lacinia nec. Nulla facilisi. Mauris sagittis diam
+    quis ante lacinia, venenatis auctor ipsum venenatis.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bab624a5d01f9e4a89c573482122671, type: 2}
   m_sharedMaterial: {fileID: 5061399371001375287, guid: 3bab624a5d01f9e4a89c573482122671, type: 2}
