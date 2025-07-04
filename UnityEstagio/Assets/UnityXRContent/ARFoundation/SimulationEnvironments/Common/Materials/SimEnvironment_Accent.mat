@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SimEnvironment_Object_Accent
-  m_Shader: {fileID: 4800000, guid: 6c4bf46f32019704e8b2efc0d062d054, type: 3}
+  m_Name: SimEnvironment_Accent
+  m_Shader: {fileID: 4800000, guid: 910d3836c6f5c2a4492fb89eda5b4b86, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -71,21 +71,18 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _AlphaToMask: 0
     - _Blend: 0
-    - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.117
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _Mode: -1
+    - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueOffset: 0
@@ -94,14 +91,13 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SrcBlendAlpha: 1
     - _Surface: 0
     - _UVSec: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.37645414, g: 0.36076787, b: 0.34116003, a: 1}
-    - _Color: {r: 0.37645411, g: 0.36076784, b: 0.34116, a: 1}
+    - _BaseColor: {r: 0.37647057, g: 0.3607843, b: 0.34117645, a: 1}
+    - _Color: {r: 0.3764705, g: 0.36078426, b: 0.34117642, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
